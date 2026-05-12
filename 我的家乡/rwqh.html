@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rwqh.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="all">
+        <!-- 背景图片 -->
+        <div class="image">
+            <!-- 顶部导航图 -->
+            <div id="top">
+                <div class="top_up">
+                    <div class="part">
+                        <ul>
+                            <li class="sy"><a href="page-2.html">首页</a></li>
+                            <li class="csfz"><a href="mzyb.html">名字衍变</a></li>
+                            <li class="jdjs"><a href="fjms.html">风景名胜</a></li>
+                            <li class="ctms"><a href="rwqh.html">人文情怀</a></li>
+                            <li class="lxwm"><a href="lxwm.html">联系我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 轮播图 -->
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx.jpg')">
+
+                    </div>
+
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx1.jpg')">
+
+                    </div>
+
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx2.jpg')">
+
+                    </div>
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx3.png')">
+
+                    </div>
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx4.jpg')">
+
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('素材/wx5.jpg')">
+
+                    </div>
+                </div>
+
+
+                <div class="swiper-pagination"></div>
+
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+
+            <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+            <script>
+
+                var mySwiper = new Swiper('.swiper-container', {
+
+                    loop: true,
+                    autoplay: {
+                        delay: 3000, // 自动切换时间(ms)
+                        disableOnInteraction: false, // 用户操作后继续自动播放
+                    },
+                    // 分页器
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    // 导航按钮
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    // 效果
+                    effect: 'fade', // 淡入淡出效果
+                    fadeEffect: {
+                        crossFade: true // 交叉淡入淡出
+                    },
+                    // 速度
+                    speed: 1000 // 切换速度(ms)
+                });
+            </script>
+
+            <div class="bt">
+            </div>
+            <!-- 人文情怀 -->
+            <div class="rwqh">
+                <h1>人文情怀</h1>
+            </div>
+            <div class="xx">
+
+            </div>
+            <div class="fjms">
+                <div class="text">
+                    <h2>黄梅戏</h2>
+                </div>
+                <div class="fj-1">
+                    <div class="left">
+                        <img src="素材/黄梅戏.jpg" alt="">
+                    </div>
+                    <div class="right">
+                        <p>本地流行采茶调（或称调儿戏、广济采茶戏）、文曲戏、黄梅戏等地方剧种。有独立的黄梅戏团（现已改为武穴市文曲戏剧团）。曾于2007年举办湖北省第六届黄梅戏艺术节。武穴市地处古代荆州和扬州的分界，武穴市大部分居民都是明朝以前从江西赣抚平原（瓦屑坝）一带迁入，保留着明显的赣地风俗和语言（赣语）。民风重教，婚丧、生子、节日、房屋落成等仪式保留较多传统汉族习俗。饮食注重土菜，不避辛辣。
+                        </p>
+                    </div>
+
+                </div>
+                <div class="text-1">
+                    <h2>岳家拳</h2>
+                </div>
+                <div class="fj-2">
+                    <div class="left">
+                        <p>武穴是岳家拳传承发展地。宋绍兴十一年（1141年）岳飞蒙难后，其子岳震、岳霆和部分将士隐居养马岭村
+                            ，与遗留下来的岳家军将士一起研习岳家拳术，岳家拳自此得以发展，并散播民间。2008年，武穴岳家拳被国务院批准为第二批国家级非物质文化遗产。岳家拳已成为武穴的文化品牌，该市多次派武术代表团前往香港、台湾交流表演，特别是在香港国际武术大赛中，获得七金十银。
+                        </p>
+                    </div>
+                    <div class="right">
+                        <img src="素材/岳家拳.jpg" alt="">
+                    </div>
+                </div>
+                <div class="text-2">
+                    <h2>武穴话</h2>
+                </div>
+                <div class="fj-3">
+                    <div class="left">
+                        <img src="素材/浴佛井.png" alt="">
+                    </div>
+                    <div class="right">
+                        <p>由于地理和历史的原因，武穴方言处于西南官话、下江官话、北方官话的河南话和赣方言的交界区，是一种难以划入某种确定的方言区而存在的特殊“楚语”，也可以说是一种混合性的方言。
+                            武穴方言主要特征：在语音方面具有独特的U组韵母；鼻音声母有m、n、g等四个；有入声字，都带有喉塞音收尾；调类有六个，去声有阴阳之分。在语法方面，有一些句型的词序与普通话有别。在词汇方面，遗留有较多的楚语古词，还融汇了许多外来词。
+                            凡来到或来过武穴的外来宾、商旅者无不感到武穴民间称谓奇特。比如：称祖辈为“爹”，称父辈为“爷”，称母亲为“姨”，称妻子为“妈妈”</p>
+                    </div>
+                </div>
+                <div class="bt-1">
+
+                </div>
+                <div class="text-3">
+                    <h2>武穴酥糖</h2>
+                </div>
+                <div class="fj-4">
+                    <div class="left">
+                        <p>武穴酥糖原名桂花董糖。20世纪80年代初，该品种被收入《湖北糕点》名录；1983年9月，被湖北省商业厅评为全省商业优良名特传统产品奖。武穴生产酥糖为主的食品企业有二、三十家，规模较大的有美雅、广济、振雄、德胜等，广济酥糖厂还开发出玉米酥糖。
+                        </p>
+                    </div>
+                    <div class="right">
+                        <img src="素材/武穴酥糖.jpg" alt="">
+
+                    </div>
+                </div>
+                <div class="text-4">
+                    <h2>武穴佛手山药</h2>
+                </div>
+                <div class="fj-5">
+                    <div class="left">
+                        <img src="素材/佛手山药.jpg" alt="">
+                    </div>
+                    <div class="right">
+                        <p>武穴种植山药有三百多年的历史，有三个品种：一为扁根，形似掌状；二为块根种，形似马蹄；三为长根种，形似棒状。前两种质量较好。武穴大力发展山药经济带，梅川、余川等地山药面积达到3万亩，使武穴成为长江流域最大的山药生产基地。
+                        </p>
+                    </div>
+                </div>
+                <div class="js">
+
+                </div>
+            </div>
+
+        </div>
+    </div>

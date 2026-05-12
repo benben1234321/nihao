@@ -1,0 +1,128 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    list-style: none;
+    text-decoration: none;
+}
+
+#start {
+    position: relative;
+}
+
+#start .image {
+    width: 1280px;
+    height: 660px;
+    margin: 0 auto;
+    background-image: url(素材/wx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+}
+
+#start .text {
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    top: 25%;
+    left: 14%;
+}
+
+h1 {
+    font-family: 华文行楷;
+    font-weight: 200;
+    font-size: 80px;
+    letter-spacing: 10px;
+    color: rgb(86, 86, 124);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    font-family: 楷体;
+    background: rgb(251, 235, 235);
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+#start #openModal {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-size: 25px;
+    font-family: 楷体;
+    font-weight: 800;
+    border-radius: 100px;
+    border-width: 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+#start #closeModal {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+}
+
+#start #closeModal a {
+    color: rgb(93, 56, 40);
+    text-decoration: none;
+}
+
+#start #closeModal a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#start #openModal:hover {
+    background-color: rgba(177, 174, 174, 1);
+}
+
+#start #openModal:active {
+    transform: translateY(5px);
+}
+
+#start #btn {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 60%;
+    right: 25%;
+    font-size: 25px;
+    font-family: 楷体;
+    font-weight: 800;
+    border-radius: 100px;
+    border-width: 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+#start #btn:hover {
+    background-color: rgba(177, 174, 174, 1);
+}
+
+#start #btn:active {
+    transform: translateY(5px);
+}
+
+#start #btn a {
+    color: black;
+    text-decoration: none;
+}

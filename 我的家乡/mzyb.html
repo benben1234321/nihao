@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mzyb.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="all">
+        <!-- 背景图片 -->
+        <div class="image">
+            <!-- 顶部导航图 -->
+            <div id="top">
+                <div class="top_up">
+                    <div class="part">
+                        <ul>
+                            <li class="sy"><a href="page-2.html">首页</a></li>
+                            <li class="csfz"><a href="mzyb.html">名字衍变</a></li>
+                            <li class="jdjs"><a href="fjms.html">风景名胜</a></li>
+                            <li class="ctms"><a href="">人文情怀</a></li>
+                            <li class="lxwm"><a href="">联系我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 轮播图 -->
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx5.jpg')">
+
+                    </div>
+
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx4.jpg')">
+
+                    </div>
+
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx3.png')">
+
+                    </div>
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx2.jpg')">
+
+                    </div>
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx1.jpg')">
+
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('素材/wx.jpg')">
+
+                    </div>
+                </div>
+
+
+                <div class="swiper-pagination"></div>
+
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+
+            <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+            <script>
+
+                var mySwiper = new Swiper('.swiper-container', {
+
+                    loop: true,
+                    autoplay: {
+                        delay: 3000, // 自动切换时间(ms)
+                        disableOnInteraction: false, // 用户操作后继续自动播放
+                    },
+                    // 分页器
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    // 导航按钮
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    // 效果
+                    effect: 'fade', // 淡入淡出效果
+                    fadeEffect: {
+                        crossFade: true // 交叉淡入淡出
+                    },
+                    // 速度
+                    speed: 1000 // 切换速度(ms)
+                });
+            </script>
+
+            <div class="bt">
+            </div>
+
+            <div class="yb">
+                <div class="left">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>武穴市</b>前身为广济县，广济县的前身是永宁县，
+                        原属之临江重镇武穴镇（今武穴城区）历史悠久。清康熙丁未《广济县志·山川》载：“东南江浦为武穴。或云汉以前为邬家阅，人极悍，有精兵号。唐为武家阅，后袭名武穴。”清初这里成为“商贾杂处、鳞集辐辏……俗名小汉口”之要埠（引自清乾隆辛未《广济县志·风俗》）。清光绪二年（公元1876年）签订的中英《烟台条约》，列武穴港为外轮停泊、上下货物的港口，使武穴成为鄂东开放的门户。当时武穴有“鄂东门户”之称。民国时期为湖北七大商埠之一。广济撤县建市时，以原武穴镇名为武穴市名。
+                    </p>
+                </div>
+                <div class="right">
+                    <img src="素材/yb1.png" alt="" class="yb1">
+                    <img src="素材/yb2.png" alt="" class="yb2">
+                    <img src="素材/yb3.png" alt="" class="yb3">
+                </div>
+
+
+            </div>
+        </div>
+</body>
+
+</html>

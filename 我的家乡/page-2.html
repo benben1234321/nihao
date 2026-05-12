@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page-2.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="all">
+        <!-- 背景图片 -->
+        <div class="image">
+            <!-- 顶部导航图 -->
+            <div id="top">
+                <div class="top_up">
+                    <div class="part">
+                        <ul>
+                            <li class="sy"><a href="page-2.html">首页</a></li>
+                            <li class="csfz"><a href="mzyb.html">名字衍变</a></li>
+                            <li class="jdjs"><a href="fjms.html">风景名胜</a></li>
+                            <li class="ctms"><a href="rwqh.html">人文情怀</a></li>
+                            <li class="lxwm"><a href="lxwm.html">联系我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 轮播图 -->
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx.jpg')">
+
+                    </div>
+
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx1.jpg')">
+
+                    </div>
+
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx2.jpg')">
+
+                    </div>
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx3.png')">
+
+                    </div>
+
+                    <div class="swiper-slide" style="background-image: url('素材/wx4.jpg')">
+
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('素材/wx5.jpg')">
+
+                    </div>
+                </div>
+
+
+                <div class="swiper-pagination"></div>
+
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+
+            <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+            <script>
+
+                var mySwiper = new Swiper('.swiper-container', {
+
+                    loop: true,
+                    autoplay: {
+                        delay: 3000, // 自动切换时间(ms)
+                        disableOnInteraction: false, // 用户操作后继续自动播放
+                    },
+                    // 分页器
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    // 导航按钮
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    // 效果
+                    effect: 'fade', // 淡入淡出效果
+                    fadeEffect: {
+                        crossFade: true // 交叉淡入淡出
+                    },
+                    // 速度
+                    speed: 1000 // 切换速度(ms)
+                });
+            </script>
+            <!-- 武穴介绍 -->
+            <div class="js">
+                <div class="left">
+                    <img src="素材/ditu.png" alt="">
+                </div>
+
+                <div class="right">
+                    <h1>武穴</h1>
+                    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;武穴市（Wuxue
+                        City）湖北省辖县级市，由黄冈市代管，全市面积1246平方千米。2023年末，武穴市常住人口65.90万人。武穴方言因地理历史原因形成，是一种混合性方言，难以确定归属，但可归为江淮方言次区，亦可称为“广济楚语”。截至2022年10月，武穴市辖4个街道、8个镇。
+                        市人民政府驻武穴街道。</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;武穴地域经历了多期地壳演变，地貌以平原丘陵为主，地势北部高而东南部低，山地、丘陵、平原分布各具特色。武穴属亚热带季风性湿润气候，温和湿润，四季分明，适宜于农、林、牧、渔全面发展。
+                        夏商周时代，属荆州管辖。1987年10月23日，撤销广济县，设立武穴市。</p>
+                </div>
+            </div>
+            <div id="focus">
+                <div class="live">
+                    <div class="live_left">
+                        <div class="img">
+                            <a href="mzyb.html">
+                                <img src="素材/名字.png" alt="">
+                            </a>
+                        </div>
+                        <div class="live_play">
+
+                        </div>
+                        <div class="title">
+                            <a href="mzyb.html">鄂东门户——武穴</a>
+                        </div>
+                    </div>
+                    <div class="live_medium">
+                        <div class="img">
+                            <a href="fjms.html">
+                                <img src="素材/风景.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="live_play">
+
+                        </div>
+                        <div class="title">
+                            <a href="fjms.html">武穴市A级景区7个</a>
+                        </div>
+                    </div>
+                    <div class="live_right">
+                        <div class="img">
+                            <a href="rwqh.html">
+                                <img src="素材/人文情怀.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="live_play">
+
+                        </div>
+                        <div class="title">
+                            <a href="">敦厚淳朴，勤劳克俭</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>

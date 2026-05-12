@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #ebf0fa;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* 背景图片样式 */
+.all .image {
+    position: relative;
+    width: 1280px;
+    height: 2000px;
+    margin: 0 auto;
+    background-image: url(素材/bottom.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-color: rgba(247, 234, 234, 0.4);
+    background-blend-mode: overlay;
+
+}
+
+/* 顶部导航 */
+#top .top_up {
+    height: 45px;
+    background-color: #b18911;
+}
+
+#top .top_up .part {
+    margin: 0 auto;
+    height: 50px;
+}
+
+#top .top_up .part ul {
+    float: left;
+}
+
+#top .top_up .part ul li {
+    float: left;
+    font-size: 18px;
+    font-family: 楷体;
+    color: #fff;
+    margin-left: 140px;
+    line-height: 45px;
+}
+
+#top .top_up .part ul li:hover {
+    cursor: pointer;
+}
+
+#top .top_up .part ul li a {
+    color: #fff;
+}
+
+#top .top_up .part ul li a:hover {
+    color: #ff9a63;
+}
+
+
+#top .sy {
+    padding-left: 30px;
+    background: url(素材/home.png) no-repeat left center;
+    background-size: 23px 23px;
+}
+
+#top .csfz {
+    padding-left: 30px;
+    background: url(素材/csfz.png) no-repeat left center;
+    background-size: 23px 23px;
+}
+
+#top .jdjs {
+    padding-left: 30px;
+    background: url(素材/jdjs.png) no-repeat left center;
+    background-size: 23px 23px;
+}
+
+#top .ctms {
+    padding-left: 30px;
+    background: url(素材/ms.png) no-repeat left center;
+    background-size: 23px 23px;
+}
+
+#top .lxwm {
+    padding-left: 30px;
+    background: url(素材/lxwm.png) no-repeat left center;
+    background-size: 23px 23px;
+}
+
+
+/* 轮播图 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* 轮播图容器样式 - 固定高度 */
+.swiper-container {
+    position: relative;
+    background-color: rgba(233, 232, 228, 0.2);
+    width: 95%;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 50px;
+    /* 设置固定高度 */
+}
+
+/* 确保幻灯片填满容器 */
+.swiper-slide {
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+
+/* 分页器样式自定义 */
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: white;
+    opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #e74c3c;
+}
+
+/* 导航按钮样式 */
+.swiper-button-next,
+.swiper-button-prev {
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 40px;
+}
+
+.all .image .bt {
+    width: 100%;
+    height: 15px;
+    background-color: aliceblue;
+    margin-top: 30px;
+}
+
+.all .image .bk {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.all .image .bk h1 {
+    color: #b18911;
+    font-family: 楷体;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+
+.all .image .bk p {
+    color: #b18911;
+    font-family: 楷体;
+    font-size: 25px;
+    padding-top: 45px;
+    padding-left: 90px;
+}
